@@ -1,0 +1,26 @@
+name: duo_banking_lab
+description: A fictional digital banking UI laboratory.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.12.2
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  adaptive_platform_ui: ^1.0.2
+  foldable: ^1.0.5
+  go_router: ^16.3.0
+  intl: ^0.20.2
+  dio: ^5.9.2
+  shared_preferences: ^2.5.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
